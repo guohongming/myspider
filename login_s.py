@@ -1,4 +1,4 @@
-__author__ = 'Guo'
+﻿__author__ = 'Guo'
 # coding:utf-8
 
 import requests
@@ -37,8 +37,8 @@ def login():
     print(xsrf)
     data = {
         '_xsrf': xsrf,
-        'email': 'guohongming03@gmail.com',
-        'password': 'guo1006575211',
+        'email': '*******@gmail.com',
+        'password': '*******',
         'remember_me': 'true',
         'captcha': capt
     }
